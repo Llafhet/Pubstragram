@@ -1,42 +1,19 @@
-# sv
+# 📸 Kitigram
+> Una simulación del *frontend* de Instagram desarrollada con **Svelte**, que consume una API externa para mostrar publicaciones en formato de tarjetas (*cards*).
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+---
 
-## Creating a project
+## 🚀 Características
+*   **Interfaz similar a Instagram:** Diseño limpio y responsivo con tarjetas de publicaciones, avatares, likes y comentarios.
+*   **Consumo de API:** Carga dinámica de fotos y datos de publicaciones mediante solicitudes HTTP.
+*   **Reactividad con Svelte:** Gestión fluida del estado y renderizado eficiente de componentes.
 
-If you're seeing this, you've probably already done this step. Congrats!
+---
 
-```sh
-# create a new project
-npx sv create my-app
-```
+## 🛠️ Tecnologías utilizadas
 
-To recreate this project with the same configuration:
+*   **[Svelte](https://svelte.dev/)** - Framework de JavaScript para la interfaz de usuario.
+*   **[Vite](https://vitejs.dev/)** - Herramienta de construcción y entorno de desarrollo.
+*   **CSS / Svelte Styles** - Estilos personalizados para emular la UI de Instagram.
 
-```sh
-# recreate this project
-npx sv@0.17.1 create --template minimal --no-types --install npm Pubstragram
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+---
